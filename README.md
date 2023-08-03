@@ -1,4 +1,4 @@
-# c-sharp-myclass
+# c-sharp-myclass　C#自己学習用のリポジトリ
 
 git のコミっトの仕方
 ①リモートにあるやつをローカルに持ってくる時
