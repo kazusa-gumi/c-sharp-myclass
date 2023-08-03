@@ -1,0 +1,15 @@
+/Users/naoikazusa/Projects/c-sharp-myclass/c-sharp-myclass/bin/Debug/net6.0/c-sharp-myclass
+/Users/naoikazusa/Projects/c-sharp-myclass/c-sharp-myclass/bin/Debug/net6.0/c-sharp-myclass.deps.json
+/Users/naoikazusa/Projects/c-sharp-myclass/c-sharp-myclass/bin/Debug/net6.0/c-sharp-myclass.runtimeconfig.json
+/Users/naoikazusa/Projects/c-sharp-myclass/c-sharp-myclass/bin/Debug/net6.0/c-sharp-myclass.dll
+/Users/naoikazusa/Projects/c-sharp-myclass/c-sharp-myclass/bin/Debug/net6.0/c-sharp-myclass.pdb
+/Users/naoikazusa/Projects/c-sharp-myclass/c-sharp-myclass/obj/Debug/net6.0/c-sharp-myclass.csproj.AssemblyReference.cache
+/Users/naoikazusa/Projects/c-sharp-myclass/c-sharp-myclass/obj/Debug/net6.0/c-sharp-myclass.GeneratedMSBuildEditorConfig.editorconfig
+/Users/naoikazusa/Projects/c-sharp-myclass/c-sharp-myclass/obj/Debug/net6.0/c-sharp-myclass.AssemblyInfoInputs.cache
+/Users/naoikazusa/Projects/c-sharp-myclass/c-sharp-myclass/obj/Debug/net6.0/c-sharp-myclass.AssemblyInfo.cs
+/Users/naoikazusa/Projects/c-sharp-myclass/c-sharp-myclass/obj/Debug/net6.0/c-sharp-myclass.csproj.CoreCompileInputs.cache
+/Users/naoikazusa/Projects/c-sharp-myclass/c-sharp-myclass/obj/Debug/net6.0/c-sharp-myclass.dll
+/Users/naoikazusa/Projects/c-sharp-myclass/c-sharp-myclass/obj/Debug/net6.0/refint/c-sharp-myclass.dll
+/Users/naoikazusa/Projects/c-sharp-myclass/c-sharp-myclass/obj/Debug/net6.0/c-sharp-myclass.pdb
+/Users/naoikazusa/Projects/c-sharp-myclass/c-sharp-myclass/obj/Debug/net6.0/c-sharp-myclass.genruntimeconfig.cache
+/Users/naoikazusa/Projects/c-sharp-myclass/c-sharp-myclass/obj/Debug/net6.0/ref/c-sharp-myclass.dll
