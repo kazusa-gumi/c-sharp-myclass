@@ -130,7 +130,9 @@ namespace HelloWorld
 
             for(int i=0; i < fluits.Length; i++)
             {
+                Console.WriteLine(@"#############");
                 Console.WriteLine(fluits[i]);
+                Console.WriteLine(@"#############");
             }
         }
     }
