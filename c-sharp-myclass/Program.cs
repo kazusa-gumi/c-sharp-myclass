@@ -86,6 +86,52 @@ namespace HelloWorld
             int rand3 = rand.Next(90, 100);
             Console.WriteLine(rand3);
             // https://learn.microsoft.com/en-us/dotnet/api/system.random.next?view=net-7.0 でメソッドの種類も確認OK
+
+            // 13　if文（分岐）ifはbool型
+            // x >y, x<=y, x===y, x!=y
+            // C#をAzureにupする方法確認
+            var dice1 = new Random(); // varは型推定
+            int roll6 = dice1.Next(1, 7);
+            Console.WriteLine(roll6);
+
+            if(roll6 >= 5)
+            {
+                Console.WriteLine("Very good!");
+            } else if(roll6 >= 3)
+            {
+                Console.WriteLine("so good!");
+            }
+            else
+            {
+                Console.WriteLine("Bad..");
+            }
+            // 14　配列
+            string[] item = new string[3];
+            item[0] = "A123";
+            item[1] = "B456";
+            item[2] = "C789";
+            Console.WriteLine(item[0]);
+            Console.WriteLine(item[1]);
+            Console.WriteLine(item[2]);
+
+            // string[]で型宣言
+            string[] fluits = { "apple", "orange", "pine" };
+            Console.WriteLine(fluits[1]);
+            // 配列に何個入っているかのメソッド
+            Console.WriteLine(fluits.Length);
+
+            // 15　foreach文
+            // fluit は新しく宣言されたもの　インテレータ:順番に調べる, 0から順番に並べる
+            foreach (string fluit in fluits)
+            {
+                Console.WriteLine(fluit);
+            }
+            Console.WriteLine();
+
+            for(int i=0; i < fluits.Length; i++)
+            {
+                Console.WriteLine(fluits[i]);
+            }
         }
     }
 }
