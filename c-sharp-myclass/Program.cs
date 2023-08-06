@@ -1,9 +1,12 @@
-﻿namespace HelloWorld
+﻿using System;
+// 名前空間
+namespace HelloWorld
 {
 
+    // クラス
     class Program
     {
-
+        // メソッド
         static void Main(string[] args)
         {
             // ①Const 宣言時は大文字の方がわかりやすい
@@ -40,7 +43,42 @@
             int y1;
             y1 = NewMethod(x1);
             printAnswer(y1);
+            // ④名前空間、クラスで使用classAのsqrtメソッドを
+            Console.WriteLine(A.sqrt(x));
 
+            // ⑤配列
+            int[] array1;// 宣言したがまだ生成されていない
+            array1 = new int[3];// インスタンス生成、メモリ割り当て
+            foreach (int a1 in array1)
+            {
+                Console.WriteLine(a1);
+            }
+            // ⑥拡大・縮小変換
+
+            // int→decimalは拡大（情報が増える）ので自動で可能
+            int a = 3;
+            decimal number = a;
+            Console.WriteLine(number);
+
+
+            // decimal→intは縮小（情報が減る）ので指定が必要、宣言をしないとエラーでる。
+            decimal z = 3.14m;
+            int b = (int)z;
+            Console.WriteLine(b);
+
+            // 文字・数字変換
+            int text = 3;
+            int text2 = 5;
+            // 文字型に変換可能 toString()
+            string s = text.ToString() + text2.ToString();
+            Console.WriteLine(s);
+
+            string s1 = "3";
+            string s2 = "5";
+
+            // int.Parseで文字→数値に変換できる
+            int sum = int.Parse(s1) + int.Parse(s2);
+            Console.WriteLine(sum);
         }
 
         //引数
@@ -56,5 +94,18 @@
             //返り値
             return x1 * x1;
         }
+
+        // ④名前空間、クラス
+        class A
+        {
+            public static int sqrt(int x)
+            {
+                return x * x + x;
+            }
+        }
+
+        
+
+        
     }
 }
