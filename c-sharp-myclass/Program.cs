@@ -32,7 +32,7 @@ namespace HelloWorld
             Console.WriteLine(x.GetTypeCode());
             Console.WriteLine(y.GetTypeCode());
 
-            // 本来なら　Random randにしないといけない。どんな型で返ってくるかわからないときはvarで宣言するのも１つのやり方。
+            // 本来なら　Random randにしないといけない。どんな型で返ってくるかわからないときはvarで宣言するのも１つのやり方。です。
             var rand = new Random();
             int roll = rand.Next(1, 7);
             Console.WriteLine(roll);
