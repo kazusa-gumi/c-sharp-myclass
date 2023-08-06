@@ -28,7 +28,7 @@ namespace HelloWorld
             var x = 10;
             var y = 10.5m;
 
-            // GetTypeCodeは型を返すメソッド
+            // GetTypeCodeは型を返すメソッドaaa
             Console.WriteLine(x.GetTypeCode());
             Console.WriteLine(y.GetTypeCode());
 
