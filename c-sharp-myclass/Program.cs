@@ -109,6 +109,40 @@ namespace HelloWorld
             {
                 Console.WriteLine("xはyより小さい");
             }
+
+            // int 型の変数 x、y にそれぞれ数値を入力し、x と y の和、差（x－y）、積、商と余り (x÷y)、を表示するプログラムを作成しなさい。
+            Console.WriteLine("数値を入れてね");
+            int x11 = int.Parse(Console.ReadLine());
+            Console.WriteLine("２つ目の数値を入れてね");
+            int y11 = int.Parse(Console.ReadLine());
+            int add = x11 + y11;
+            Console.WriteLine("和は" + add);
+            int subtract = x11 + y11;
+            Console.WriteLine("差は" + subtract);
+            int product = x11 * y11;
+            Console.WriteLine("積は" + product);
+            int remainder = x11 / y11;
+            Console.WriteLine("積は" + remainder);
+
+            // ２つの整数値を入力し、平均値を求めるプログラムを作成しなさい。
+            Console.WriteLine("平均値を求めますので、数値を２つ入れてね");
+            int x12 = int.Parse(Console.ReadLine());
+            Console.WriteLine("2つ目の数値を入れてね");
+            int y12 = int.Parse(Console.ReadLine());
+
+            int answer = (x12 + y12) / 2;
+             Console.WriteLine(answer);
+
+
+            // 年齢を訊ね、生まれてから現在までの、おおよその日数を表示するプログラムを作成しなさい。
+            // ※日数の計算は閏年等を考慮せず、年齢× 365 とする。
+            Console.WriteLine("How old are you?");
+            int age = int.Parse(Console.ReadLine());
+
+            int ageDate = 365 * age;
+            Console.WriteLine("生まれてから " + ageDate + " 日経過してます。");
+
         }
+
     }
 }
