@@ -142,6 +142,22 @@ namespace HelloWorld
             int ageDate = 365 * age;
             Console.WriteLine("生まれてから " + ageDate + " 日経過してます。");
 
+            // ２つの整数値を入力し、大きい方（小さくない方）の数を表示するプログラムを作成しなさい。
+            Console.WriteLine("１つ目の数値を入れて下さい");
+            int x13 = int.Parse(Console.ReadLine());
+            Console.WriteLine("2つ目の数値を入れて下さい");
+            int y13 = int.Parse(Console.ReadLine());
+
+            if(x13 < y13)
+            {
+                Console.WriteLine(y13 + " の方が大きいです");
+            } else
+            {
+                Console.WriteLine(x13 + " の方が大きいです");
+            }
+
+            // 正の整数値を入力し、それが偶数か奇数かを判定するプログラムを作成しなさい。
+
         }
 
     }
