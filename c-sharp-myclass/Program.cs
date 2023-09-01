@@ -9,16 +9,27 @@ namespace HelloWorld
         // メソッド
         static void Main(string[] args)
         {
-            string[] MyArray = { "Mon", "Tue", "Web" };
-            //for(int i =0; i < MyArray.Length; i++)
-            //{
-            //    Console.WriteLine(MyArray[i]);
-            //}
+            List<string> myList = new List<string>();
+            myList.Add("Mon");
+            myList.Add("Tue");
+            myList.Add("aWeb");
 
-            // foreach文
-            // 配列の要素１つ１つを取り出して表示しているイメージかな。
-            foreach(var item in MyArray) {
-                Console.WriteLine(item);
+            foreach(string s in myList)
+            {
+                Console.WriteLine(s);
+            }
+
+            myList.Remove("Tue");
+
+            foreach (string s in myList)
+            {
+                Console.WriteLine(s);
+            }
+
+            myList.Sort();
+            foreach (string s in myList)
+            {
+                Console.WriteLine(s);
             }
         }
     }
