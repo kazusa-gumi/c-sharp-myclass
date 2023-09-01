@@ -6,31 +6,28 @@ namespace HelloWorld
     // クラス
     class Program
     {
-        // メソッド
+        public static int Addition()
+        {
+            int x = 5;
+            int y = 10;
+            int z = x + y;
+            return z;
+        }
+
+        public static int Subtraction()
+        {
+            int x = 5;
+            int y = 10;
+            int z = x - y;
+            return z;
+        }
+
+
         static void Main(string[] args)
         {
-            List<string> myList = new List<string>();
-            myList.Add("Mon");
-            myList.Add("Tue");
-            myList.Add("aWeb");
-
-            foreach(string s in myList)
-            {
-                Console.WriteLine(s);
-            }
-
-            myList.Remove("Tue");
-
-            foreach (string s in myList)
-            {
-                Console.WriteLine(s);
-            }
-
-            myList.Sort();
-            foreach (string s in myList)
-            {
-                Console.WriteLine(s);
-            }
+            
+            Console.WriteLine(Addition());
+            Console.WriteLine(Subtraction());
         }
     }
 }
